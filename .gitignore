@@ -38,6 +38,12 @@ yarn-error.*
 
 app-example
 
+# Editor
+.vscode/
+
+# Claude AI
+.claude/
+
 # generated native folders
 /ios
 /android

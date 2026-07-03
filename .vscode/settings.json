@@ -1,7 +1,39 @@
 {
+  "tailwindCSS.experimental.classRegex": [
+    ["className={`([^`]*)`}", "([a-zA-Z0-9\\-:]+)"],
+    ["className=\"([^\"]*)\"", "([a-zA-Z0-9\\-:]+)"],
+    ["className='([^']*)'", "([a-zA-Z0-9\\-:]+)"]
+  ],
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
     "source.organizeImports": "explicit",
     "source.sortMembers": "explicit"
+  },
+
+  "editor.guides.indentation": true,
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 1,
+  "indentRainbow.colors": [
+    "rgba(255,255,64, 0.3)",
+    "rgba(127,255,127, 0.3)",
+    "rgba(255,127,255, 0.3)",
+    "rgba(79,236,236, 0.3)"
+  ],
+
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground1": "#ff0000",
+    "editorIndentGuide.activeBackground2": "#ff0000",
+    "editorIndentGuide.activeBackground3": "#ff0000",
+    "editorIndentGuide.activeBackground4": "#ff0000",
+    "editorIndentGuide.activeBackground5": "#ff0000",
+    "editorIndentGuide.activeBackground6": "#ff0000"
   }
 }

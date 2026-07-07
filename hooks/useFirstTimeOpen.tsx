@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 export function useFirstTimeOpen() {
   const [isFirstTime, setIsFirstTime] = useState(true); // TEMP TEST
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     async function checkFirstTimeOpen() {

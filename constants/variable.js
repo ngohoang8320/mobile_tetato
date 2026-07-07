@@ -52,7 +52,7 @@ const typography = {
   // link: [14, { lineHeight: 20 }],
   hero: [28, { lineHeight: 3 }],
   title: [20, { lineHeight: 3 }],
-  body: [16, { lineHeight: 3 }],
+  body: [16, { lineHeight: 2 }],
   base: [14, { lineHeight: 3 }],
   label: [16, { lineHeight: 3 }],
   caption: [12, { lineHeight: 3 }],
